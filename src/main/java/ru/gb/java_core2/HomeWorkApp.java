@@ -5,10 +5,14 @@ public class HomeWorkApp {
     public static void main(String[] args) {
 
         System.out.println(checkSum(55, 10));
+
         printNumber(-34);
+
         System.out.println(positiveNumber(55));
+
         printText("Java junior", 7);
-        System.out.println(isLeapYear(2010));
+
+        System.out.println(isLeapYear(2020));
     }
 
     public static boolean checkSum(int a, int b) {
